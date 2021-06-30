@@ -260,9 +260,10 @@ a.active,a:hover{
     padding: 0;
 }
 @media screen and (max-width:1000px){
-    .container .box{
-        width: 40%;
+    .container{
+        width: 60%;
         position: center;
+        padding-left: 10%;
     }
 }
 
