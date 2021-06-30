@@ -170,7 +170,12 @@ a.active,a:hover{
 }
 .content-area p img{
     padding-left: 0%;
-    padding-right: 20%;
+    padding-right: 10%;
+}
+@media screen and (max-width:1000px){
+    .content-area p img{
+        width: 40%;
+    }
 }
 .container{
     display:flex ;
@@ -254,6 +259,13 @@ a.active,a:hover{
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width:1000px){
+    .container .box{
+        width: 40%;
+        position: center;
+    }
+}
+
 .main{
     background-color:  white(231, 230, 233);
     
